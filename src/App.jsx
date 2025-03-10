@@ -4,6 +4,7 @@ import { LanguageProvider } from './Context/LanguageContext.jsx'
 import { Toaster } from 'react-hot-toast'
 import Home from './base/Home.jsx'
 import AboutUs from './base/AboutUs.jsx'
+import Products from './base/Products.jsx'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <LanguageProvider>
         <Home />
         <AboutUs />
+        <Products />
         <PWABadge />
         <Toaster />
       </LanguageProvider>
