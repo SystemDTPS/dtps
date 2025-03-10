@@ -13,7 +13,6 @@ function App() {
         <Home />
         <AboutUs />
         <Products />
-        <PWABadge />
         <Toaster />
       </LanguageProvider>
     </>
